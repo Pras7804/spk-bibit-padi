@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #e6f2ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Container */
+.container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Left Section */
+.left-section {
+    flex: 1;
+    background: linear-gradient(to bottom, #d1f1d7, #a9e4b7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #255437;
+    padding: 20px;
+}
+
+.left-section h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.left-section .image {
+    background: url(../image/tampilanawal.jpg) no-repeat center center/cover;
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+/* Right Section */
+.right-section {
+    flex: 1;
+    background-color: #1e6f5c;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Form Containers */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container p a{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox a {
+    color: #9de1c5;
+    text-decoration: none;
+}
+
+.signup-btn {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-btn a {
+    color: white;
+    text-decoration: none;
+}
+/* Exit Animation */
+/* body.animate-exit .container {
+    transform: translateX(-100%);
+    transition: transform 0.6s ease-in-out;
+} */
